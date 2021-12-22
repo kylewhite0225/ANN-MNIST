@@ -1,0 +1,3 @@
+This project is an exploration of artificial neural networks using the small batch backpropagation algorithm. Each image in the MNIST dataset is broken down into a 1 x 784 array (28x28 pixels) which is fed into the input layer of the newtork. The output of the network is a one-hot-encoded vector with the prediction as the highest probability within the vector.
+
+The topology of my network is a three-layer network, with 784 input neurons, 120 hidden neurons, and 10 output neurons. The logistic (or sigmoid) function is used as the activation function for the hidden layer, and the softmax function is used as the activation function for the output layer.
